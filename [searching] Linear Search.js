@@ -11,5 +11,5 @@ const linearSearch = (arr, x) => {
     return -1;
 }
 
-let findIndex = linearSearch([1, 4, 5, 9, 2, 6, 3, 7, 8], 90);
-console.log(findIndex);
+let findIndex = linearSearch([1, 4, 5, 9, 2, 6, 3, 7, 8, 10], 9);
+console.log(findIndex); // 3
