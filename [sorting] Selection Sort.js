@@ -1,3 +1,6 @@
+// Time: BigO(n^2)
+// Space: BigO(1)
+
 let selectionSort = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         let minIndex = i;
